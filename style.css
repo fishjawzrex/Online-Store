@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Merriweather', serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.store-header {
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/24/03/54/urban-2004494_960_720.jpg");
+  background-size: cover;
+  color: white;
+  padding-bottom: 40px;
+  height: 220px;
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+.store-nav ul {
+  margin: 0;
+
+}
+.store-nav li {
+  list-style-type: none;
+  display: inline;
+  margin: 5%;
+}
+ul a {
+  text-decoration: none;
+  color: white;
+}
+.store-nav {
+  display: inline;
+  border-bottom: solid 2px grey;
+
+}
+.container{
+  text-align: center;
+}
+.store-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.store-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.item-title {
+  display: block;
+  text-align: center;
+}
+
+.item-image{
+  width: 250px;
+  height: auto;
+  border: solid grey 1px;
+  border-radius: 5px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  padding-right: 10px;
+
+}
+/*.item-price, .quantity, .add-btn {
+  margin: 5px;
+  height: 40px;
+}*/
+.quantity {
+  margin-left: 10px;
+  width: 10%;
+  height: auto;
+  border: dodgerblue 1px solid;
+  border-radius: 2px;
+}
+
+.add-btn{
+  margin-left: 5px;
+}
+
+body {
+  background-color: grey;
+}
+
+.cart-row {
+  display: flex;
+  padding-top: 10px;
+}
+
+.cart-header {
+  font-weight: bold;
+}
+
+.cart-column {
+  border-bottom: 1px solid black;
+  margin-right: 10px;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: auto;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-quantity-input {
+  margin-left: 10px;
+  width: 30px;
+  height: auto;
+  border: dodgerblue 1px solid;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+
+.danger-btn {
+  background-color: red;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+.danger-btn:hover {
+  background-color: #000;
+  color: white;
+
+}
+
+.cart-total {
+  display: flex;
+  text-align: right;
+  margin-right: 20px;
+}
+
+.cart-total span {
+  margin-right: 20px;
+}
+.cart-total {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-rows:last-child {
+  border-bottom: 1px solid black;
+}
